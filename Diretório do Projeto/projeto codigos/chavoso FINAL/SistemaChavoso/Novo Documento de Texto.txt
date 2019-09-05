@@ -1,0 +1,4 @@
+select id_relatorio, id_chave, (select nome from pessoa where r.id_pessoa_autor = id_pessoa) as nome,
+(select nome from pessoa where r.id_pessoa_admin = id_pessoa) as nome_admin , r.verificacao_senha, r.lab_disponibilidade, (select data from header where id_header = r.id_header) 
+from relatorio r where r.id_chave in (select id_chave from laboratorio where id_departamento = 2 )
+order by r.id_header desc;
