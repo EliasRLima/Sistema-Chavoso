@@ -1,6 +1,6 @@
 # Sistema Chavoso
  
- Sistema de geranciamento de chaves desenvolvido para o IFMA/Monte Castelo na disciplina 
+ Sistema de geranciamento de chaves desenvolvido para o IFMA/Monte Castelo na disciplina "Laboratorio de Desenvolvimento de Software"</br>
   
 O sistema possui uma documentação completa de seu funcionamento, de forma que pode ser facilmente compreendido e instalado mesmo por usuários que não participaram de seu desenvolvimento.</br>
 </br></br>
